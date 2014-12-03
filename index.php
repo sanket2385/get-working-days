@@ -4,8 +4,8 @@
      *
      * @param $date must be in YYYY-MM-DD format
      * @param int $buffer
-     * @param string $holidays - You can pass either an array of holidays in YYYYYMMDD format or a URL for a .ics file
-     * containing holidays this defaults to the UK govt holiday data for England and Wales
+     * @param string $holidays - You can pass either an array of holidays in YYYY-MM-DD format or a URL for a .ics file
+     *        containing holidays this defaults to the UK govt holiday data for England and Wales
      * @return string
      */
     
@@ -35,4 +35,4 @@
         return $newDate;
     }
 
-    ?>
+?>
